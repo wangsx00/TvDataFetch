@@ -23,6 +23,16 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python Dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install -r tvDataFetch/requirements.txt
+
       - name: Log Environment
         run: |
           echo "UTC time: $(date -u '+%Y-%m-%d %H:%M:%S')"
@@ -30,6 +40,7 @@ jobs:
           echo "Workspace: $GITHUB_WORKSPACE"
           echo "Node version: $(node -v)"
           echo "NPM version: $(npm -v)"
+          echo "Python version: $(python3 --version)"
           if [ -n "$DOUBAN_COOKIE" ]; then
             echo "DOUBAN_COOKIE: configured"
           else
