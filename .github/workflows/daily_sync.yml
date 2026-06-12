@@ -21,9 +21,34 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Log Environment
+        run: |
+          echo "UTC time: $(date -u '+%Y-%m-%d %H:%M:%S')"
+          echo "Runner OS: $RUNNER_OS"
+          echo "Workspace: $GITHUB_WORKSPACE"
+          echo "Node version: $(node -v)"
+          echo "NPM version: $(npm -v)"
+          echo "Repository root:"
+          ls -la
+          echo "tvDataFetch directory:"
+          ls -la tvDataFetch
+
       - name: Run Sync Script
         working-directory: ./tvDataFetch
-        run: node douban_sync_hot.js
+        run: |
+          echo "Working directory: $(pwd)"
+          echo "Starting sync script..."
+          node douban_sync_hot.js
+          echo "Sync script finished"
+
+      - name: Log Output Summary
+        if: always()
+        working-directory: ./tvDataFetch
+        run: |
+          echo "douban_hot_json status:"
+          ls -lah douban_hot_json || true
+          echo "douban_hot_json preview:"
+          head -c 2000 douban_hot_json || true
 
       - name: Commit and Push changes
         run: |

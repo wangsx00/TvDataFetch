@@ -16,6 +16,14 @@ function log(msg) {
   console.log(`[${time}] ${msg}`);
 }
 
+function logError(error) {
+  if (!error) return;
+  console.error(`[ERROR] ${error.message || String(error)}`);
+  if (error.stack) {
+    console.error(error.stack);
+  }
+}
+
 async function main() {
   try {
     // --- 步骤 1: 获取热门数据 ---
@@ -74,6 +82,9 @@ async function main() {
         }
       });
     }
+
+    log(`横版封面匹配数: ${Object.keys(imageMap).length}`);
+    log(`预告片匹配数: ${Object.keys(trailerMap).length}`);
 
     // --- 步骤 4: 合并数据 ---
     log("正在合并数据...");
@@ -146,7 +157,7 @@ async function main() {
 
   } catch (error) {
     console.error("❌ 执行过程中出错:");
-    console.error(error.message);
+    logError(error);
     process.exit(1);
   }
 }

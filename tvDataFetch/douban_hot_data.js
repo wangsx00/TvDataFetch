@@ -36,6 +36,42 @@ function curl(args) {
   throw new Error("curl 最终失败");
 }
 
+function parseLocation(headers) {
+  const match = headers.match(/^Location:\s*(\S+)/im);
+  return match ? match[1] : null;
+}
+
+function splitHeadersAndBody(headersAndBody) {
+  const separator = headersAndBody.includes("\r\n\r\n") ? "\r\n\r\n" : "\n\n";
+  const index = headersAndBody.indexOf(separator);
+  if (index === -1) {
+    return { headers: "", body: headersAndBody };
+  }
+  return {
+    headers: headersAndBody.slice(0, index),
+    body: headersAndBody.slice(index + separator.length),
+  };
+}
+
+function safePreview(text, length = 160) {
+  return String(text).replace(/\s+/g, " ").trim().slice(0, length);
+}
+
+function parseHotResponse(responseText, sourceLabel) {
+  let parsed;
+  try {
+    parsed = JSON.parse(responseText);
+  } catch (error) {
+    throw new Error(`${sourceLabel} 返回非 JSON: ${safePreview(responseText)}`);
+  }
+
+  if (!parsed || !Array.isArray(parsed.data)) {
+    throw new Error(`${sourceLabel} JSON 结构异常: ${safePreview(responseText)}`);
+  }
+
+  return parsed.data;
+}
+
 function solvePow(challenge) {
   let nonce = 0;
   while (true) {
@@ -64,30 +100,40 @@ function ensureSession(cookieJar) {
   logStep("检查会话有效性...");
 
   const headersAndBody = spawnSync("curl", [
-    "-sS", "-D", "-", "-c", cookieJar, "-b", cookieJar,
+    "--http1.1", "-sS", "-D", "-", "-c", cookieJar, "-b", cookieJar,
     "-H", `User-Agent: ${USER_AGENT}`,
+    "-H", `Accept-Language: ${ACCEPT_LANGUAGE}`,
+    "-H", "Referer: https://movie.douban.com/explore",
     testUrl
   ], { encoding: "utf8" }).stdout;
 
-  const match = headersAndBody.match(/^Location:\s*(\S+)/im);
-  if (!match) {
+  const secUrl = parseLocation(headersAndBody);
+  if (!secUrl) {
     logStep("会话有效或无需校验");
     return;
   }
 
-  const secUrl = match[1];
   logStep(`触发安全验证: ${secUrl}`);
 
-  const challengeHtml = curl(["-sS", "-b", cookieJar, "-c", cookieJar, "-H", `User-Agent: ${USER_AGENT}`, secUrl]);
+  const challengeHtml = curl([
+    "--http1.1", "-sS", "-b", cookieJar, "-c", cookieJar,
+    "-H", `User-Agent: ${USER_AGENT}`,
+    "-H", `Accept-Language: ${ACCEPT_LANGUAGE}`,
+    "-H", "Referer: https://movie.douban.com/explore",
+    secUrl
+  ]);
   const { tok, cha, red } = parseChallengeHtml(challengeHtml);
 
   logStep("正在计算 PoW...");
   const sol = solvePow(cha);
 
   curl([
-    "-sS", "-L", "-b", cookieJar, "-c", cookieJar,
+    "--http1.1", "-sS", "-L", "-b", cookieJar, "-c", cookieJar,
     "https://sec.douban.com/c",
     "-H", `User-Agent: ${USER_AGENT}`,
+    "-H", `Accept-Language: ${ACCEPT_LANGUAGE}`,
+    "-H", "Origin: https://sec.douban.com",
+    "-H", `Referer: ${secUrl}`,
     "--data-urlencode", `tok=${tok}`,
     "--data-urlencode", `cha=${cha}`,
     "--data-urlencode", `sol=${sol}`,
@@ -96,38 +142,61 @@ function ensureSession(cookieJar) {
   logStep("验证通过");
 }
 
+function buildRequestUrl(options) {
+  const currentYear = new Date().getFullYear();
+  let url = `https://movie.douban.com/j/new_search_subjects?sort=U&range=0,10&tags=&playable=1&start=0&year_range=${currentYear},${currentYear}`;
+
+  if (options.tag && options.tag !== DEFAULT_TAG) {
+    url += `&tag=${encodeURIComponent(options.tag)}`;
+  }
+  if (options.type && options.type !== DEFAULT_TYPE) {
+    url += `&selectable_type=${encodeURIComponent(options.type)}`;
+  }
+  if (options.limit) {
+    url += `&limit=${options.limit}`;
+  }
+
+  return url;
+}
+
+function fetchHotDataFromUrl(url, cookieJar) {
+  logStep(`抓取数据，URL: ${url}`);
+
+  const headersAndBody = curl([
+    "--http1.1",
+    "-sS",
+    "-D",
+    "-",
+    "-b",
+    cookieJar,
+    "-c",
+    cookieJar,
+    "-H",
+    `User-Agent: ${USER_AGENT}`,
+    "-H",
+    `Accept-Language: ${ACCEPT_LANGUAGE}`,
+    "-H",
+    "Referer: https://movie.douban.com/explore",
+    url
+  ]);
+
+  const { headers, body } = splitHeadersAndBody(headersAndBody);
+  const secUrl = parseLocation(headers);
+  if (secUrl) {
+    throw new Error(`请求被重定向到校验页: ${secUrl}`);
+  }
+
+  return parseHotResponse(body, url);
+}
+
 async function fetchHotData(options) {
   const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "douban-hot-"));
   const cookieJar = path.join(tempDir, "cookies.txt");
 
   try {
     ensureSession(cookieJar);
-
-    const currentYear = new Date().getFullYear();
-    // 保持与 HomeViewModel.kt 的 fetchDoubanHotData 参数一致
-    let url = `https://movie.douban.com/j/new_search_subjects?sort=U&range=0,10&tags=&playable=1&start=0&year_range=${currentYear},${currentYear}`;
-
-    // 如果命令行指定了 tag 或 type，则追加/覆盖
-    if (options.tag && options.tag !== DEFAULT_TAG) {
-        url += `&tag=${encodeURIComponent(options.tag)}`;
-    }
-    if (options.type && options.type !== DEFAULT_TYPE) {
-        url += `&selectable_type=${options.type}`;
-    }
-    if (options.limit) {
-        url += `&limit=${options.limit}`;
-    }
-
-    logStep(`抓取数据，URL: ${url}`);
-
-    const response = curl([
-      "-sS", "-b", cookieJar,
-      "-H", `User-Agent: ${USER_AGENT}`,
-      "-H", "Referer: https://movie.douban.com/explore",
-      url
-    ]);
-
-    return JSON.parse(response).data;
+    const url = buildRequestUrl(options);
+    return fetchHotDataFromUrl(url, cookieJar);
   } finally {
     fs.rmSync(tempDir, { recursive: true, force: true });
   }
