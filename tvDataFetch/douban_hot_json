@@ -27,9 +27,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/37234503/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/322567/",
       "trailer_title": "莫离 预告片2 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140130/ed65bbcecaec91c01cb2dde8f1422a7e/view/movie/M/703220567.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140130/ed65bbcecaec91c01cb2dde8f1422a7e/view/movie/M/703220567.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/322567/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/322567/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140130/ed65bbcecaec91c01cb2dde8f1422a7e/view/movie/M/703220567.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140151/a2b27781f474161c9d411b8acba139d4/view/movie/M/703220567.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140151/a2b27781f474161c9d411b8acba139d4/view/movie/M/703220567.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/322567/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/322567/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140151/a2b27781f474161c9d411b8acba139d4/view/movie/M/703220567.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -57,9 +57,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36883114/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/320378/",
       "trailer_title": "家业 预告片3 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140130/80fbd59aaeb2f99c5b49cc110b34968c/view/movie/M/703200378.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140130/80fbd59aaeb2f99c5b49cc110b34968c/view/movie/M/703200378.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/320378/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/320378/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140130/80fbd59aaeb2f99c5b49cc110b34968c/view/movie/M/703200378.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140151/0bca2cbe0c212294951847fd3a10af93/view/movie/M/703200378.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140151/0bca2cbe0c212294951847fd3a10af93/view/movie/M/703200378.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/320378/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/320378/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140151/0bca2cbe0c212294951847fd3a10af93/view/movie/M/703200378.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -86,9 +86,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/35295564/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/324583/",
       "trailer_title": "主角 预告片 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140130/613f29f47a3b058d249fa76694661163/view/movie/M/703240583.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140130/613f29f47a3b058d249fa76694661163/view/movie/M/703240583.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324583/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324583/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140130/613f29f47a3b058d249fa76694661163/view/movie/M/703240583.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140151/9e8bf54d0015168ba44cc0124b4156a5/view/movie/M/703240583.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140151/9e8bf54d0015168ba44cc0124b4156a5/view/movie/M/703240583.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324583/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324583/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140151/9e8bf54d0015168ba44cc0124b4156a5/view/movie/M/703240583.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -115,9 +115,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36894289/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/324782/",
       "trailer_title": "翘楚 预告片3 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140130/69e57ece3ea82af536c1d8f886e68669/view/movie/M/703240782.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140130/69e57ece3ea82af536c1d8f886e68669/view/movie/M/703240782.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324782/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324782/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140130/69e57ece3ea82af536c1d8f886e68669/view/movie/M/703240782.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140151/432574b48eca139ca03ef3c535927fda/view/movie/M/703240782.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140151/432574b48eca139ca03ef3c535927fda/view/movie/M/703240782.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324782/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324782/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140151/432574b48eca139ca03ef3c535927fda/view/movie/M/703240782.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -144,9 +144,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/35517044/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/324454/",
       "trailer_title": "低智商犯罪 预告片：定档版 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140130/798f40e9c840622f5d43e3cfbf174b36/view/movie/M/703240454.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140130/798f40e9c840622f5d43e3cfbf174b36/view/movie/M/703240454.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324454/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324454/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140130/798f40e9c840622f5d43e3cfbf174b36/view/movie/M/703240454.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140151/b7dee0aba92c60d24c4e7a90a1244e7e/view/movie/M/703240454.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140151/b7dee0aba92c60d24c4e7a90a1244e7e/view/movie/M/703240454.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324454/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324454/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140151/b7dee0aba92c60d24c4e7a90a1244e7e/view/movie/M/703240454.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -173,9 +173,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36310054/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/317790/",
       "trailer_title": "雨霖铃 先行版 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140130/a52b90f57a1a8ea58d350a602d1a64ab/view/movie/M/703170790.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140130/a52b90f57a1a8ea58d350a602d1a64ab/view/movie/M/703170790.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/317790/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/317790/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140130/a52b90f57a1a8ea58d350a602d1a64ab/view/movie/M/703170790.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140152/c2c48f9bda9a211b9c15522299c1375d/view/movie/M/703170790.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140152/c2c48f9bda9a211b9c15522299c1375d/view/movie/M/703170790.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/317790/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/317790/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140152/c2c48f9bda9a211b9c15522299c1375d/view/movie/M/703170790.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -202,9 +202,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/37332784/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/323936/",
       "trailer_title": "我，许可 预告片3：定档版 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140130/ffc8170ea38f9e21239e7f01252676cc/view/movie/M/703230936.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140130/ffc8170ea38f9e21239e7f01252676cc/view/movie/M/703230936.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323936/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323936/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140130/ffc8170ea38f9e21239e7f01252676cc/view/movie/M/703230936.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140152/0fd82caaa1087c4d1c9e2f56a593e1f6/view/movie/M/703230936.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140152/0fd82caaa1087c4d1c9e2f56a593e1f6/view/movie/M/703230936.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323936/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323936/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140152/0fd82caaa1087c4d1c9e2f56a593e1f6/view/movie/M/703230936.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -231,9 +231,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/37317021/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/324845/",
       "trailer_title": "灵魂摆渡·十年 预告片：定档版 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140131/68440fb131dfe0732361176345f53bcd/view/movie/M/703240845.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140131/68440fb131dfe0732361176345f53bcd/view/movie/M/703240845.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324845/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324845/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140131/68440fb131dfe0732361176345f53bcd/view/movie/M/703240845.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140152/2e596395a0fa01875bb530e1eb81400c/view/movie/M/703240845.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140152/2e596395a0fa01875bb530e1eb81400c/view/movie/M/703240845.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324845/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324845/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140152/2e596395a0fa01875bb530e1eb81400c/view/movie/M/703240845.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -260,9 +260,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/35159709/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/323678/",
       "trailer_title": "天才游戏 预告片3：定档版 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140131/c357037c2772759839047937645e736b/view/movie/M/703230678.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140131/c357037c2772759839047937645e736b/view/movie/M/703230678.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323678/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323678/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140131/c357037c2772759839047937645e736b/view/movie/M/703230678.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140152/6c15d2cce3e203f4ff7ac823101fc964/view/movie/M/703230678.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140152/6c15d2cce3e203f4ff7ac823101fc964/view/movie/M/703230678.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323678/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323678/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140152/6c15d2cce3e203f4ff7ac823101fc964/view/movie/M/703230678.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -289,9 +289,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/37242440/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/323554/",
       "trailer_title": "惊蛰无声 其它预告片：“间谍在身边”特别视频 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140131/f0806773d1189c6d0ef202da431ee4b9/view/movie/M/703230554.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140131/f0806773d1189c6d0ef202da431ee4b9/view/movie/M/703230554.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323554/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323554/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140131/f0806773d1189c6d0ef202da431ee4b9/view/movie/M/703230554.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140152/1fffcfda60e5bd12841e3c4843d2a6a1/view/movie/M/703230554.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140152/1fffcfda60e5bd12841e3c4843d2a6a1/view/movie/M/703230554.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323554/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323554/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140152/1fffcfda60e5bd12841e3c4843d2a6a1/view/movie/M/703230554.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -319,9 +319,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/35465012/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/324358/",
       "trailer_title": "南部档案 预告片 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140131/990f2dd3ab865d00e3cfbebe12e134cd/view/movie/M/703240358.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140131/990f2dd3ab865d00e3cfbebe12e134cd/view/movie/M/703240358.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324358/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324358/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140131/990f2dd3ab865d00e3cfbebe12e134cd/view/movie/M/703240358.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140152/43f6b2c1cd01ea24b1978f8e52b65cf5/view/movie/M/703240358.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140152/43f6b2c1cd01ea24b1978f8e52b65cf5/view/movie/M/703240358.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324358/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324358/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140152/43f6b2c1cd01ea24b1978f8e52b65cf5/view/movie/M/703240358.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -348,9 +348,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/37311135/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/323844/",
       "trailer_title": "飞驰人生3 其它预告片3：“开工大吉”版 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140131/a9310921cd511193b38248b44d2a0bc8/view/movie/M/703230844.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140131/a9310921cd511193b38248b44d2a0bc8/view/movie/M/703230844.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323844/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323844/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140131/a9310921cd511193b38248b44d2a0bc8/view/movie/M/703230844.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140152/7c2893785ed51367d597c64d7a79511f/view/movie/M/703230844.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140152/7c2893785ed51367d597c64d7a79511f/view/movie/M/703230844.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/323844/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/323844/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140152/7c2893785ed51367d597c64d7a79511f/view/movie/M/703230844.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -407,9 +407,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/35424715/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/322263/",
       "trailer_title": "生命树 预告片2 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140132/957c6be60c73e70c0ae0a7c20bfa18bd/view/movie/M/703220263.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140132/957c6be60c73e70c0ae0a7c20bfa18bd/view/movie/M/703220263.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/322263/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/322263/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140132/957c6be60c73e70c0ae0a7c20bfa18bd/view/movie/M/703220263.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140153/9665a6971d4dcbd65522cb7f5dd5549e/view/movie/M/703220263.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140153/9665a6971d4dcbd65522cb7f5dd5549e/view/movie/M/703220263.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/322263/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/322263/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140153/9665a6971d4dcbd65522cb7f5dd5549e/view/movie/M/703220263.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -436,9 +436,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36554061/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/321080/",
       "trailer_title": "逐玉 预告片2 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140132/86b5dfbf3ace113100fbee1dbebc9e5e/view/movie/M/703210080.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140132/86b5dfbf3ace113100fbee1dbebc9e5e/view/movie/M/703210080.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/321080/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/321080/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140132/86b5dfbf3ace113100fbee1dbebc9e5e/view/movie/M/703210080.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140153/2f9eb28c8443f63f6b7ac979edb8e612/view/movie/M/703210080.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140153/2f9eb28c8443f63f6b7ac979edb8e612/view/movie/M/703210080.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/321080/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/321080/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140153/2f9eb28c8443f63f6b7ac979edb8e612/view/movie/M/703210080.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -465,9 +465,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36217763/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/319403/",
       "trailer_title": "我的妈耶 预告片3 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140132/a7cdccdb99aafaa85383e4fb79e8febe/view/movie/M/703190403.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140132/a7cdccdb99aafaa85383e4fb79e8febe/view/movie/M/703190403.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/319403/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/319403/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140132/a7cdccdb99aafaa85383e4fb79e8febe/view/movie/M/703190403.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140153/b430554e4962c429ad0c325bc5e58c73/view/movie/M/703190403.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140153/b430554e4962c429ad0c325bc5e58c73/view/movie/M/703190403.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/319403/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/319403/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140153/b430554e4962c429ad0c325bc5e58c73/view/movie/M/703190403.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -495,9 +495,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36449703/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/324815/",
       "trailer_title": "迷墙 预告片：定档版 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140132/13ba19c19ddf4553e4b0d0dc4fba2830/view/movie/M/703240815.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140132/13ba19c19ddf4553e4b0d0dc4fba2830/view/movie/M/703240815.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324815/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324815/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140132/13ba19c19ddf4553e4b0d0dc4fba2830/view/movie/M/703240815.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140153/7a8f9ee63ad05e64a9abb4509c28b9e0/view/movie/M/703240815.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140153/7a8f9ee63ad05e64a9abb4509c28b9e0/view/movie/M/703240815.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/324815/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/324815/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140153/7a8f9ee63ad05e64a9abb4509c28b9e0/view/movie/M/703240815.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -524,9 +524,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/35922594/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/315105/",
       "trailer_title": "黑夜告白 其它预告片：动态海报",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140132/0b577841f9794a0d89701ee782b84418/view/movie/M/703150105.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140132/0b577841f9794a0d89701ee782b84418/view/movie/M/703150105.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/315105/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/315105/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140132/0b577841f9794a0d89701ee782b84418/view/movie/M/703150105.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140153/77575c9fd3e0913d12d722a330ba117e/view/movie/M/703150105.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140153/77575c9fd3e0913d12d722a330ba117e/view/movie/M/703150105.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/315105/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/315105/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140153/77575c9fd3e0913d12d722a330ba117e/view/movie/M/703150105.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -553,9 +553,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36415590/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/320530/",
       "trailer_title": "唐宫奇案之青雾风鸣 预告片2 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140132/db23133b4fae7f03df8ed124a467a2ea/view/movie/M/703200530.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140132/db23133b4fae7f03df8ed124a467a2ea/view/movie/M/703200530.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/320530/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/320530/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140132/db23133b4fae7f03df8ed124a467a2ea/view/movie/M/703200530.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140153/696a039c8ec404c08e4240918d232030/view/movie/M/703200530.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140153/696a039c8ec404c08e4240918d232030/view/movie/M/703200530.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/320530/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/320530/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140153/696a039c8ec404c08e4240918d232030/view/movie/M/703200530.mp4' -o trailer.mp4"
     },
     {
       "directors": [
@@ -582,9 +582,9 @@
       "trailer_page_url": "https://movie.douban.com/subject/36749573/trailer",
       "trailer_detail_url": "https://movie.douban.com/trailer/322373/",
       "trailer_title": "极限审判 中国大陆预告片3 (中文字幕)",
-      "trailer_video_url": "https://vt1.doubanio.com/202606140132/f643f72a71a3414cdc54bb89c90abf1e/view/movie/M/703220373.mp4",
-      "trailer_video_composed": "https://vt1.doubanio.com/202606140132/f643f72a71a3414cdc54bb89c90abf1e/view/movie/M/703220373.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/322373/",
-      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/322373/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140132/f643f72a71a3414cdc54bb89c90abf1e/view/movie/M/703220373.mp4' -o trailer.mp4"
+      "trailer_video_url": "https://vt1.doubanio.com/202606140154/8645f0af5c85700d2d8961cabf04d374/view/movie/M/703220373.mp4",
+      "trailer_video_composed": "https://vt1.doubanio.com/202606140154/8645f0af5c85700d2d8961cabf04d374/view/movie/M/703220373.mp4@User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36@Referer=https://movie.douban.com/trailer/322373/",
+      "trailer_download_command": "curl -L -H 'Referer: https://movie.douban.com/trailer/322373/' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' 'https://vt1.doubanio.com/202606140154/8645f0af5c85700d2d8961cabf04d374/view/movie/M/703220373.mp4' -o trailer.mp4"
     }
   ]
 }
